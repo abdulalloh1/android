@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is the capital of France?"
+        android:textSize="18sp"
+        android:padding="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <RadioButton
+            android:id="@+id/radio_option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berlin"/>
+
+        <RadioButton
+            android:id="@+id/radio_option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paris"/>
+
+        <RadioButton
+            android:id="@+id/radio_option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Madrid"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitAnswerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Answer"/>
+</LinearLayout>
